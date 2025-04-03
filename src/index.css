@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+body{
+    background-color: rgb(144, 77, 244);
+}
+
+
+.navbar{
+    width: 100%;
+}
+@media(max-width:375px){
+   .todo{
+    text-overflow: hidden;
+   }
+}
